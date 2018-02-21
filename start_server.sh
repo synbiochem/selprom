@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-DIR=$(cd "$(dirname "$0")"; pwd)
+CWD=$PWD
 
 REPO=$GITLAB/sbc-prom.git
 DEPLOY=false
@@ -15,7 +15,7 @@ rm -rf sbc-prom
 git clone $REPO
 cd sbc-prom
 git checkout -b prod origin/prod
-cd $DIR
+cd $PWD
 
 docker build -t selprom .
 
