@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 CWD=$PWD
-
 REPO=$GITLAB/sbc-prom.git
 DEPLOY=false
 
@@ -15,7 +14,7 @@ rm -rf sbc-prom
 git clone $REPO sbc-prom
 cd sbc-prom
 git checkout -b prod origin/prod
-cd $PWD
+cd $CWD
 
 docker build -t selprom .
 
