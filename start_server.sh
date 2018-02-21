@@ -12,7 +12,7 @@ if [ "$DEPLOY" == "true" ]; then
 fi
 
 rm -rf sbc-prom
-git clone $REPO
+git clone $REPO sbc-prom
 cd sbc-prom
 git checkout -b prod origin/prod
 cd $PWD
