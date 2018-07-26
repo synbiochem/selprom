@@ -1,4 +1,4 @@
-# selprom: constitutive promoters database and selection tool
+# Selprom: constitutive promoters database and selection tool
 
 Run an instance of the promoter selection tool.
 

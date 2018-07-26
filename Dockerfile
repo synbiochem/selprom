@@ -1,4 +1,4 @@
-# Docker file that installs docker container for Selenzyme
+# Docker file that installs docker container for Selprom
 #
 # build with: "sudo docker build -t selprom ."
 
