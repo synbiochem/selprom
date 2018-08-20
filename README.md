@@ -2,6 +2,8 @@
 
 Run an instance of the promoter selection tool.
 
+First make sure that branch prod of sbc-prom repo contains the production version of the repository.
+
 Usage:
 
 ```(bash)
