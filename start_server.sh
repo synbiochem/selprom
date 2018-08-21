@@ -3,7 +3,7 @@
 # Run script from its folder
 CWD=$PWD
 # Define repository location
-GITLAB=ssh://gitlab@gitlab.cs.man.ac.uk:22222/pablo-carbonell/sbc-prom.git
+GITLAB=ssh://gitlab@gitlab.cs.man.ac.uk:22222/pablo-carbonell
 REPO=$GITLAB/sbc-prom.git
 # true for the cloud server, false for local installation
 DEPLOY=true
