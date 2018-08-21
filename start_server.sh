@@ -6,7 +6,10 @@ CWD=$PWD
 GITLAB=ssh://gitlab@gitlab.cs.man.ac.uk:22222/pablo-carbonell/sbc-prom.git
 REPO=$GITLAB/sbc-prom.git
 # true for the cloud server, false for local installation
-DEPLOY=false
+DEPLOY=true
+if [ "$USER" == "pablo" ]; then
+    DEPLOY=false
+fi
 
 # Delete old containers
 docker stop selprom
