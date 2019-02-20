@@ -3,7 +3,7 @@
 # build with: "sudo docker build -t selprom ."
 
 # Install basic image
-FROM continuumio/anaconda3:5.0.1
+FROM continuumio/anaconda3:5.2.0
 
 # Install additional tools
 RUN conda install -c conda-forge flask-restful=0.3.6
